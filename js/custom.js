@@ -116,11 +116,11 @@
   message.classList.add("cookie-element");
 
   message.innerHTML =
-    '<span>"Thanks for visiting my portfolio. Feel free to explore!"</span> <button class="btn btn-sm btn-danger">Got it!</button>';
+    '<span>"Thanks for visiting my portfolio. Feel free to explore!"</span> <button class="btn btn-sm btn-danger remove-message">Got it!</button>';
 
   PortfolioBody.prepend(message);
 
-  document.querySelector(".cookie-element").addEventListener("click", () => {
+  document.querySelector(".remove-message").addEventListener("click", () => {
     message.remove();
   });
 

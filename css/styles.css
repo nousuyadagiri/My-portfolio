@@ -255,12 +255,12 @@ ul {
   color: #81878d;
 }
 .banner-text p:hover {
-  transition: all 0.5s ease;
+  transition: all 0.3s linear;
   cursor: pointer;
   color: var(--color);
 }
 .banner-text p:hover::before {
-  transition: all 0.5s ease;
+  transition: all 0.3s linear;
   width: 90px;
 }
 .banner-text p::before {
@@ -271,6 +271,7 @@ ul {
   width: 50px;
   height: 5px;
   border-radius: 6px;
+  transition: all 0.3s linear;
   background: linear-gradient(
     to bottom right,
     rgb(var(--primary-color)) 0%,
@@ -355,11 +356,11 @@ ul {
     height: 300px;
     object-fit: cover;
     border-radius: var(--border-radius);
+    transition: all 0.3s linear;
   }
 }
 .card-border:hover {
   > img {
-    transition: all 0.4s ease-in-out;
     transform: translate(-10px, -10px);
   }
 }
