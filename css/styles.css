@@ -361,7 +361,7 @@ ul {
 }
 .card-border:hover {
   > img {
-    transform: translate(-9px, -9px);
+    transform: translate(-10px, -10px);
   }
 }
 .card-border::before {
